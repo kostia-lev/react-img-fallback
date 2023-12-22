@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# React image with fallback
+
+In case image link is not valid, this component uses customizable fallback image.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
