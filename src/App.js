@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import ImgWithFallback from "./ImgWithFallback/ImgWithFallback";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <ImgWithFallback src="ads" alt="the_alt_text" />
+        {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
